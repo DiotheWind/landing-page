@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 100px;
+}
+
+.header-links {
+    margin-right: 100px;
+}
+ul {
+    display: flex;
+    gap: 14px;
+}
