@@ -1,6 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;  
+    padding: 12px 0;
+    align-items: center; 
 }
 
 .header-logo {
@@ -10,6 +13,7 @@
 .header-links {
     margin-right: 100px;
 }
+
 ul {
     display: flex;
     gap: 14px;
