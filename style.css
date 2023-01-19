@@ -1,7 +1,6 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;  
     padding: 12px 0;
     align-items: center; 
 }
@@ -22,9 +21,10 @@ ul {
 
 .content1 {
     display: flex; 
-    margin-top: 50px;  
-    background-color: #1f2937;
+    margin-top: 100px;  
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .content1-left {
@@ -36,3 +36,4 @@ ul {
 .content1-right {
     margin-right: 100px;
 }
+
