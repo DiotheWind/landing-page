@@ -21,5 +21,18 @@ ul {
 }
 
 .content1 {
+    display: flex; 
+    margin-top: 50px;  
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.content1-left {
     display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.content1-right {
+    margin-right: 100px;
 }
