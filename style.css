@@ -63,3 +63,12 @@ ul {
     align-items: flex-end;
     padding: 50px 0;
 }
+
+.content4 {
+    background-color: white;
+    padding: 50px;
+}
+
+.bluecontainer {
+    background-color: blue;
+}
