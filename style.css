@@ -37,3 +37,14 @@ ul {
     margin-right: 100px;
 }
 
+.content2-background{
+    background-color: white;
+    margin-top: 110px;
+    height: 400px;
+}
+
+.content2-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
