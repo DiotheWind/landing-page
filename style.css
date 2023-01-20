@@ -81,3 +81,13 @@ ul {
     padding: 50px 0;
     width: 900px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
