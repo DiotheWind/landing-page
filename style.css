@@ -65,10 +65,19 @@ ul {
 }
 
 .content4 {
+    display: flex;
     background-color: white;
-    padding: 50px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .bluecontainer {
-    background-color: blue;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 50px 0;
+    width: 900px;
 }

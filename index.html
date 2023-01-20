@@ -26,7 +26,8 @@
             color: #E5E7EB;
             font-size: 18px;
         }
-        .signbutton{
+        .signbutton, 
+        .content4-button {
             background-color: #3882f6;
             color: #f9faf8;
             width: 75px;
@@ -41,6 +42,10 @@
         }
         .breed {
             border-radius: 10px;
+        }
+
+        .content4-button {
+          border: 2px solid white;
         }
     </style>
 </head>
@@ -103,13 +108,13 @@
 
     <div class="content4">
       <div class="bluecontainer">
-        <div class="content4-text">
-          <p>Do you like cats?</p>
-          <p>Click the nyaa button on the right for no good reason!</p>
+        <div class="content4-text" style="display: flex; flex-direction: column;">
+          <p style="margin: 0; padding: 0; color: white; font-size: 18px;"><b>Do you like cats?</b></p>
+          <p style="margin: 0; padding: 0; color: #e5e7eb; font-size: 18px;">Click the meow button on the right for no good reason!</p>
         </div>
-        <div class="content4-button">
-          NYAAAAA!
-        </div>
+        <strong class="content4-button" style="display: flex; justify-content: center; align-items: center;">
+          Meow!
+        </strong>
       </div>
     </div>
 </body>
