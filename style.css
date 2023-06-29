@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 115px;;
+    padding: 20px 150px;;
     background-color: #1F2937;
 }
 
@@ -32,10 +32,37 @@ ul li a {
 .section1 {
     display: flex;
     background-color: #1F2937;
-    padding: 85px 115px;
+    padding: 85px 150px;
+    justify-content: center;
+    gap: 350px;
+}
+
+p {
+    margin: 0;
+}
+
+.section1-left-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.section1-left-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 30px;
+}
+
+.section1-left-button {
+    color: #F9FAF9;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
 }
 
 .section1-right img {
-    width: 550px;
-    height: auto;
+    width: 540px;
+    height: 280px;
 }
