@@ -23,10 +23,16 @@ ul {
     gap: 21px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    padding: 85px 115px;
 }
 
 .section1-right img {
