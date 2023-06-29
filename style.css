@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Roboto, Georgia, sans-serif;
@@ -159,3 +160,16 @@ p {
     color: #F9FAF9;
     font-size: 14px;
 }
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.footer p,
+.github-link {
+    color: #E5E7EB;
+    text-align: center;
+}
+
