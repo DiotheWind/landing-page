@@ -60,6 +60,7 @@ p {
     border: none;
     border-radius: 15px;
     padding: 10px 25px;
+    font-size: 14px;
 }
 
 .section1-right img {
@@ -156,4 +157,5 @@ p {
     border-radius: 15px;
     padding: 10px 25px;
     color: #F9FAF9;
+    font-size: 14px;
 }
