@@ -66,3 +66,39 @@ p {
     width: 540px;
     height: 280px;
 }
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 150px;
+    gap: 70px;
+    align-items: center;
+}
+
+.section2-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.section2-image-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    flex-basis: 185px
+}
+
+.image-container img {
+    width: 185px;
+    height: auto;
+    border-radius: 17px;
+    margin-bottom: 6px;
+}
+
+.image-container p {
+    color: #544e4d;
+    text-align: center;
+}
