@@ -102,3 +102,25 @@ p {
     color: #544e4d;
     text-align: center;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 75px 280px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.section3 .first-p {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section3 .second-p {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 20px;
+    font-size: 20px;
+}
