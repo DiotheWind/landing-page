@@ -3,11 +3,12 @@
 body {
     margin: 0px;
     min-height: 100vh;
-    display: flex;
+    display: flex;    /* Enables the Footer to stick to bottom */
     flex-direction: column;
     font-family: Roboto, Georgia, sans-serif;
 }
 
+/* Styling for header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,6 +31,7 @@ ul li a {
     font-size: 18px;
 }
 
+/* Styling for first section */
 .section1 {
     display: flex;
     background-color: #1F2937;
@@ -69,6 +71,7 @@ p {
     height: 280px;
 }
 
+/* Styling for second section */
 .section2 {
     display: flex;
     flex-direction: column;
@@ -106,6 +109,7 @@ p {
     text-align: center;
 }
 
+/* Styling for third section */
 .section3 {
     background-color: #E5E7EB;
     padding: 75px 280px;
@@ -128,6 +132,7 @@ p {
     font-size: 20px;
 }
 
+/* Styling for fourth section */
 .section4 {
     padding: 100px;
 }
@@ -161,8 +166,9 @@ p {
     font-size: 14px;
 }
 
+/* Styling for footer */
 .footer {
-    margin-top: auto;
+    margin-top: auto;  /* Enables the footer to stick to bottom */
     background-color: #1F2937;
     padding: 25px;
 }
