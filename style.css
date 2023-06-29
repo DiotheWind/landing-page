@@ -125,3 +125,35 @@ p {
     margin-top: 20px;
     font-size: 20px;
 }
+
+.section4 {
+    padding: 100px;
+}
+
+.box-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 50px;
+    width: 990px;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+
+.section4-p1 {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section4-p2 {
+    color: #E5E7EB;
+}
+
+.section4-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: #F9FAF9;
+}
