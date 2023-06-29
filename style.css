@@ -1,7 +1,14 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 ul {
@@ -11,4 +18,5 @@ ul {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
+    gap: 18px;
 }
