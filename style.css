@@ -1,6 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -8,4 +9,6 @@ ul {
     margin: 0px;
     padding: 0px;
     display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
 }
