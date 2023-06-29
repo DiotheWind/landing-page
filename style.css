@@ -85,6 +85,7 @@ p {
 .section2-image-list {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .image-container {
